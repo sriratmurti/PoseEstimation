@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E227657626A0D195000BCC98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227657526A0D195000BCC98 /* AppDelegate.swift */; };
+		E227657826A0D195000BCC98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227657726A0D195000BCC98 /* SceneDelegate.swift */; };
+		E227657A26A0D195000BCC98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227657926A0D195000BCC98 /* ViewController.swift */; };
+		E227657D26A0D195000BCC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E227657B26A0D195000BCC98 /* Main.storyboard */; };
+		E227657F26A0D195000BCC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E227657E26A0D195000BCC98 /* Assets.xcassets */; };
+		E227658226A0D195000BCC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E227658026A0D195000BCC98 /* LaunchScreen.storyboard */; };
+		E227658C26A0D725000BCC98 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227658B26A0D725000BCC98 /* VideoCapture.swift */; };
+		E22765AE26A0DF28000BCC98 /* PoseEstimation.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E22765AD26A0DF28000BCC98 /* PoseEstimation.mlmodel */; };
+		E22765B026A0DF84000BCC98 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22765AF26A0DF84000BCC98 /* Predictor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E227657226A0D195000BCC98 /* MC3PoseEstimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3PoseEstimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E227657526A0D195000BCC98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E227657726A0D195000BCC98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E227657926A0D195000BCC98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E227657C26A0D195000BCC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E227657E26A0D195000BCC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E227658126A0D195000BCC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E227658326A0D195000BCC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E227658B26A0D725000BCC98 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		E22765AD26A0DF28000BCC98 /* PoseEstimation.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseEstimation.mlmodel; sourceTree = "<group>"; };
+		E22765AF26A0DF84000BCC98 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E227656F26A0D194000BCC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E227656926A0D194000BCC98 = {
+			isa = PBXGroup;
+			children = (
+				E227657426A0D195000BCC98 /* MC3PoseEstimation */,
+				E227657326A0D195000BCC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E227657326A0D195000BCC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E227657226A0D195000BCC98 /* MC3PoseEstimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E227657426A0D195000BCC98 /* MC3PoseEstimation */ = {
+			isa = PBXGroup;
+			children = (
+				E22765AD26A0DF28000BCC98 /* PoseEstimation.mlmodel */,
+				E227657526A0D195000BCC98 /* AppDelegate.swift */,
+				E227657726A0D195000BCC98 /* SceneDelegate.swift */,
+				E227657926A0D195000BCC98 /* ViewController.swift */,
+				E227657B26A0D195000BCC98 /* Main.storyboard */,
+				E227657E26A0D195000BCC98 /* Assets.xcassets */,
+				E227658026A0D195000BCC98 /* LaunchScreen.storyboard */,
+				E227658326A0D195000BCC98 /* Info.plist */,
+				E227658B26A0D725000BCC98 /* VideoCapture.swift */,
+				E22765AF26A0DF84000BCC98 /* Predictor.swift */,
+			);
+			path = MC3PoseEstimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E227657126A0D194000BCC98 /* MC3PoseEstimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E227658626A0D195000BCC98 /* Build configuration list for PBXNativeTarget "MC3PoseEstimation" */;
+			buildPhases = (
+				E227656E26A0D194000BCC98 /* Sources */,
+				E227656F26A0D194000BCC98 /* Frameworks */,
+				E227657026A0D194000BCC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MC3PoseEstimation;
+			productName = MC3PoseEstimation;
+			productReference = E227657226A0D195000BCC98 /* MC3PoseEstimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E227656A26A0D194000BCC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E227657126A0D194000BCC98 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E227656D26A0D194000BCC98 /* Build configuration list for PBXProject "MC3PoseEstimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E227656926A0D194000BCC98;
+			productRefGroup = E227657326A0D195000BCC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E227657126A0D194000BCC98 /* MC3PoseEstimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E227657026A0D194000BCC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E227658226A0D195000BCC98 /* LaunchScreen.storyboard in Resources */,
+				E227657F26A0D195000BCC98 /* Assets.xcassets in Resources */,
+				E227657D26A0D195000BCC98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E227656E26A0D194000BCC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E227658C26A0D725000BCC98 /* VideoCapture.swift in Sources */,
+				E227657A26A0D195000BCC98 /* ViewController.swift in Sources */,
+				E227657626A0D195000BCC98 /* AppDelegate.swift in Sources */,
+				E227657826A0D195000BCC98 /* SceneDelegate.swift in Sources */,
+				E22765B026A0DF84000BCC98 /* Predictor.swift in Sources */,
+				E22765AE26A0DF28000BCC98 /* PoseEstimation.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E227657B26A0D195000BCC98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E227657C26A0D195000BCC98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E227658026A0D195000BCC98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E227658126A0D195000BCC98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E227658426A0D195000BCC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E227658526A0D195000BCC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E227658726A0D195000BCC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P94HWRYJL7;
+				INFOPLIST_FILE = MC3PoseEstimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.infinitelearning.MC3PoseEstimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E227658826A0D195000BCC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P94HWRYJL7;
+				INFOPLIST_FILE = MC3PoseEstimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.infinitelearning.MC3PoseEstimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E227656D26A0D194000BCC98 /* Build configuration list for PBXProject "MC3PoseEstimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E227658426A0D195000BCC98 /* Debug */,
+				E227658526A0D195000BCC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E227658626A0D195000BCC98 /* Build configuration list for PBXNativeTarget "MC3PoseEstimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E227658726A0D195000BCC98 /* Debug */,
+				E227658826A0D195000BCC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E227656A26A0D194000BCC98 /* Project object */;
+}
